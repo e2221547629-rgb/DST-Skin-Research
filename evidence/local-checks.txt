@@ -1,0 +1,32 @@
+Environment launcher warnings omitted; test output retained.
+
+Runtime: Lua 5.1
+PASS syntax: 5 Lua files
+PASS snapshot queries real inventory result and excludes raw user ID
+PASS unchanged polls suppressed; ownership changes still observed
+PASS missing world and client instance do nothing
+PASS missing user, inventory and failed query are distinct
+PASS missing component, invalid entity and malformed clothing skip
+PASS skin changes and log delimiters are encoded
+PASS observer errors are isolated
+PASS method trace preserves self, arguments and nil return slots
+PASS original method error propagates unchanged
+PASS trace cannot turn logger failure into game failure
+PASS modmain tolerates world absent during module loading
+PASS modmain schedules once and cancels periodic task on removal
+mock runtime: 12 tests passed (not a DST session)
+PASS observer mutation tripwires (heuristic)
+PASS source: default base skips ownership query
+PASS source: owned base must also belong to chosen character
+PASS source: unowned base rejected
+PASS source: clothing requires ownership and catalog membership
+PASS source: mod character does not use official base skin
+PASS source: invalid character falls back
+PASS source: SetSkinMode sends animation build then five skin identifiers
+PASS source: GetClothing includes base and returns a new table
+PASS source: in-game reload rejects no-longer-owned skin and clothing
+PASS source: in-game reload retains owned selections
+PASS source: snapshot restoration deliberately defers inventory validation
+PASS source: gameplay without userid falls back base but defers clothing check
+local source: 12 tests passed; all native methods were stubs
+No DST engine, network transport or rendering test was performed.

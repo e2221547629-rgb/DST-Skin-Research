@@ -1,0 +1,211 @@
+{
+  "game_version": "760178",
+  "bundle_sha256": "fab1cab00a0d043e49917bf18adbe8199caf60f1523dcc2e998785f44037893a",
+  "scope": "Local installed scripts; does not establish latest Steam version or native engine behavior",
+  "files": {
+    "scripts/networking.lua": {
+      "sha256": "ca41f0418bef3866d1f879cd9160c2386e77445e885fc49c5d84e72408b01b84",
+      "lines": 1003
+    },
+    "scripts/components/skinner.lua": {
+      "sha256": "c696939f5d049c731c6babd03d62a698ec2faf7e8e2ba80bf1ee8d35fb403c46",
+      "lines": 874
+    },
+    "scripts/prefabs/player_common.lua": {
+      "sha256": "6e84df1d245195fb81c8d0af6ae3167ad4930a00fa5a4198a52083c22fb8a287",
+      "lines": 2974
+    },
+    "scripts/playerprofile.lua": {
+      "sha256": "5257a68810befc2772e3b67f72ebc2ae8f6ad3b527f8ad86fb28484cb8e54f25",
+      "lines": 2188
+    },
+    "scripts/skinsutils.lua": {
+      "sha256": "71c56d90512bc687f4233d18e826b7a8e5dfc9c64153878f7e2a5f32fb9a30bb",
+      "lines": 2056
+    },
+    "scripts/mainfunctions.lua": {
+      "sha256": "53831dfadc029a24a36e0e703c9b3f404ee1a733e1b2e0e22b99abd450642a51",
+      "lines": 2620
+    },
+    "scripts/components/wardrobe.lua": {
+      "sha256": "fd4947b266324b3aa37a565a8130c2ed8c05694c1cc6360ec6bf0e1ca6dfdc9d",
+      "lines": 330
+    }
+  },
+  "references": {
+    "scripts/networking.lua": {
+      "ValidateSpawnPrefabRequest": [
+        194
+      ],
+      "CheckClientOwnership": [
+        175,
+        218,
+        232,
+        235,
+        238,
+        241
+      ],
+      "SetSkinMode": [
+        258,
+        284
+      ],
+      "SetSkinName": [
+        257,
+        283
+      ]
+    },
+    "scripts/components/skinner.lua": {
+      "CheckClientOwnership": [
+        524,
+        550,
+        601,
+        840,
+        854,
+        868
+      ],
+      "SetPlayerSkin": [
+        482
+      ],
+      "AssignItemSkins": [
+        689,
+        738,
+        742
+      ],
+      "SetSkin(": [
+        44,
+        602,
+        604
+      ],
+      "SetSkinMode": [
+        459,
+        574,
+        610,
+        627,
+        633,
+        642,
+        676
+      ],
+      "SetSkinName": [
+        467,
+        577,
+        861
+      ],
+      "function Skinner:OnLoad": [
+        822
+      ],
+      "function Skinner:GetClothing": [
+        652
+      ]
+    },
+    "scripts/prefabs/player_common.lua": {
+      "SetSkinMode": [
+        1826,
+        1827,
+        1830
+      ],
+      "AddComponent(\"skinner\")": [
+        2834
+      ],
+      "SetPristine": [
+        2611
+      ]
+    },
+    "scripts/playerprofile.lua": {
+      "CheckOwnership": [
+        192,
+        207
+      ],
+      "ValidateItemsLocal": [
+        247,
+        294
+      ]
+    },
+    "scripts/skinsutils.lua": {
+      "CheckOwnership": [
+        497,
+        731,
+        1284,
+        1319,
+        1404,
+        1410,
+        1428,
+        1506,
+        1528,
+        1575,
+        1597,
+        1623
+      ],
+      "ValidateItemsLocal": [
+        1504
+      ]
+    },
+    "scripts/mainfunctions.lua": {
+      "CheckOwnership": [
+        2050
+      ],
+      "SendSpawnRequestToServer": [
+        2054
+      ]
+    },
+    "scripts/components/wardrobe.lua": {
+      "AssignItemSkins": [
+        250
+      ],
+      "SetSkinName": [
+        264
+      ]
+    }
+  },
+  "native_call_sites": [
+    {
+      "file": "scripts/components/skinner_beefalo.lua",
+      "line": 153,
+      "symbol": "AssignItemSkins"
+    },
+    {
+      "file": "scripts/mainfunctions.lua",
+      "line": 2054,
+      "symbol": "SendSpawnRequestToServer"
+    },
+    {
+      "file": "scripts/prefabs/beefalo_groomer.lua",
+      "line": 166,
+      "symbol": "AssignItemSkins"
+    },
+    {
+      "file": "scripts/components/skinner.lua",
+      "line": 482,
+      "symbol": "SetPlayerSkin"
+    },
+    {
+      "file": "scripts/components/skinner.lua",
+      "line": 689,
+      "symbol": "AssignItemSkins"
+    },
+    {
+      "file": "scripts/components/skinner.lua",
+      "line": 738,
+      "symbol": "AssignItemSkins"
+    },
+    {
+      "file": "scripts/components/skinner.lua",
+      "line": 742,
+      "symbol": "AssignItemSkins"
+    },
+    {
+      "file": "scripts/networking.lua",
+      "line": 194,
+      "symbol": "ValidateSpawnPrefabRequest"
+    },
+    {
+      "file": "scripts/components/wardrobe.lua",
+      "line": 250,
+      "symbol": "AssignItemSkins"
+    },
+    {
+      "file": "scripts/components/mightygym.lua",
+      "line": 297,
+      "symbol": "AssignItemSkins"
+    }
+  ]
+}

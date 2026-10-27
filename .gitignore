@@ -1,0 +1,7 @@
+.local-source/
+__pycache__/
+*.pyc
+test-results/
+*.log
+*.zip
+*.bundle
