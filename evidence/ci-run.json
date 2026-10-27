@@ -1,0 +1,70 @@
+{
+  "id": 40449742199,
+  "head_sha": "aa907c8a49a2e249ba7749994b86cc28c7078ec6",
+  "status": "completed",
+  "conclusion": "success",
+  "event": "push",
+  "html_url": "https://github.com/e2221547629-rgb/DST-Skin-Research/actions/runs/40449742199",
+  "created_at": "2026-10-27T04:26:25Z",
+  "updated_at": "2026-10-27T04:26:41Z",
+  "job_id": 122009406458,
+  "jobs": [
+    {
+      "name": "lua51",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+          "conclusion": "success"
+        },
+        {
+          "name": "Install Lua 5.1",
+          "conclusion": "success"
+        },
+        {
+          "name": "Syntax and mock runtime",
+          "conclusion": "success"
+        },
+        {
+          "name": "Guardrails and tool syntax",
+          "conclusion": "success"
+        },
+        {
+          "name": "Source audit boundary",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "test_output": [
+    "2026-10-27T04:26:38.3209380Z PASS snapshot queries real inventory result and excludes raw user ID",
+    "2026-10-27T04:26:38.3210287Z PASS unchanged polls suppressed; ownership changes still observed",
+    "2026-10-27T04:26:38.3211034Z PASS missing world and client instance do nothing",
+    "2026-10-27T04:26:38.3211711Z PASS missing user, inventory and failed query are distinct",
+    "2026-10-27T04:26:38.3212680Z PASS missing component, invalid entity and malformed clothing skip",
+    "2026-10-27T04:26:38.3213375Z PASS skin changes and log delimiters are encoded",
+    "2026-10-27T04:26:38.3213757Z PASS observer errors are isolated",
+    "2026-10-27T04:26:38.3214222Z PASS method trace preserves self, arguments and nil return slots",
+    "2026-10-27T04:26:38.3214708Z PASS original method error propagates unchanged",
+    "2026-10-27T04:26:38.3215473Z PASS trace cannot turn logger failure into game failure",
+    "2026-10-27T04:26:38.3216070Z PASS modmain tolerates world absent during module loading",
+    "2026-10-27T04:26:38.3216842Z PASS modmain schedules once and cancels periodic task on removal",
+    "2026-10-27T04:26:38.3217460Z mock runtime: 12 tests passed (not a DST session)",
+    "2026-10-27T04:26:38.3679779Z PASS observer mutation tripwires (heuristic)",
+    "2026-10-27T04:26:38.4347011Z Proprietary game scripts and real DST sessions are intentionally not part of this CI job."
+  ],
+  "scope": "Lua 5.1 syntax, 12 mock runtime tests and heuristic mutation tripwires. No proprietary source tests, DST engine, network or rendering test."
+}
